@@ -5,6 +5,7 @@
     <title>CSCI 1300: Iterative Redesign</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
@@ -36,7 +37,73 @@
         We presented our hifi mockups to an industry critic and our peers in our user interface and user experience class to receive feedback on the designs and prototypes that we had created. 
         This was really useful in helping us improve our designs because it allowed us to understand how new users would interact with and interpret our designs.
       </p>
-      <p>Some key points of feedback that we received:</p>
+      <p>Some key points of feedback that we received and our solutions to those issues:</p>
+      <div class="critiques">
+        <div class="point flex row">
+          <div class="problem col-6">
+            The effect of the “Cancel” button is unclear: does it close the appointment popup or cancel the appointment itself? 
+          </div>
+          <div class="solution col-6">
+            “Cancel” was rephrased to “Cancel Appointment”, and added an “X” on the top right of the appointment popup to close the popup.
+          </div>
+        </div>
+        <div class="point flex row">
+          <div class="problem col-6">
+            Scheduling appointments is a key feature, and should also be accessible from the home page. Redundancy is ok in this context.
+          </div>
+          <div class="solution col-6">
+            A “Schedule Appointments” button was added directly to the home page, in a highly visible space.
+          </div>
+        </div>
+        <div class="point flex row">
+          <div class="problem col-6">
+            Finding new therapists is crucial to the app’s mission, and should be made more accessible.
+          </div>
+          <div class="solution col-6">
+            A “Search” tab was added to the bottom navbar. Clicking on “Search” brought users to a page where exploring and matching with new therapists is the main functionality (as opposed to scheduling an appointment, which is the main functionality of the “Schedule” tab).
+          </div>
+        </div>
+        <div class="point flex row">
+          <div class="problem col-6">
+            When new messages are received, a notification signal on the messages tab in the bottom navbar would be helpful.
+          </div>
+          <div class="solution col-6">
+            When there are unread messages, a notification icon appears on the “Messages” tab in the bottom navbar to bring attention to new messages.
+          </div>
+        </div>
+        <div class="point flex row">
+          <div class="problem col-6">
+            A therapist’s profile should be accessible both from the chat function, and from the “your primary therapist” section in the profile page.
+          </div>
+          <div class="solution col-6">
+            <p>In a chat screen, an “information” icon was added besides the therapist’s profile icon that brings the user to the therapist’s full profile.
+              </p>
+            <p>In the profile page, “your primary therapist” is now displayed as a card (in the same format as search results), and clicking it brings the user to the therapist’s full profile.</p>
+          </div>
+        </div>
+
+        <div class="point flex row">
+          <div class="problem col-6">
+            Missing an option to set someone as your primary therapist.
+          </div>
+          <div class="solution col-6">
+            A button was added to the therapist profile page to set the current therapist as the user’s primary therapist.
+          </div>
+        </div>
+
+        <div class="point-last flex row">
+          <div class="problem col-6">
+            Inconsistencies in data (eg. names, dates, times) across different screens.
+          </div>
+          <div class="solution col-6">
+            The prototype was re-organized, and any inconsistencies in information were fixed.
+          </div>
+        </div>
+      </div>
+
+      <p>Finally we combined all of this feedback and new ideas and incorporated them into an improved version of our prototype.</p>
+      <p>The final version can be found here: </p>
+      <p>CAN SOMEONE PLEASE INSERT IFRAME HERE</p>
     </div>
 
     <!-- anika -->
@@ -55,5 +122,10 @@
       <h3><span class="highlight-15">CSCI 1300 | Fall 2020</span></h3>
       <p>asdfasdfasdfasdfdfs</p>
     </div>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
   </body>
 </html>

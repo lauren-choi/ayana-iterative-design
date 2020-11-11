@@ -108,3 +108,29 @@ h1, h2, h3, h4 {
   display: flex;
   flex-wrap: wrap;
 }
+
+.point{
+  padding: 10px;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.point-last{
+  padding: 10px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: none;
+}
+
+
+.critiques{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
