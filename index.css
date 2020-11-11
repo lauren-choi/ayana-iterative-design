@@ -19,6 +19,9 @@ h1, h2, h3, h4 {
   background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #fae4d7 50%); 
 }
 .highlight-2 { 
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #fcea44 50%); 
+}
+.highlight-25 { 
   background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #faf8a5 50%); 
 }
 .highlight-3 { 
