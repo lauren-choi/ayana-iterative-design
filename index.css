@@ -19,10 +19,10 @@ h1, h2, h3, h4 {
   background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #fae4d7 50%); 
 }
 .highlight-2 { 
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #fcea44 50%); 
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #f7e49c 50%); 
 }
 .highlight-25 { 
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #faf8a5 50%); 
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #f7edc3 50%); 
 }
 .highlight-3 { 
   background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #c7e6a8 50%); 
@@ -43,13 +43,13 @@ h1, h2, h3, h4 {
   background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #edceea 50%); 
 }
 .highlight-7 { 
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #d9c6f5 50%); 
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #bfcff2 50%); 
 }
 .highlight-75 { 
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #e6dcf5 50%); 
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #a0bdf2 50%); 
 }
 .highlight-8 { 
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #edbbd4 50%); 
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #c3ebf7 50%); 
 }
 
 .heading, .section {
